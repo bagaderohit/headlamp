@@ -32,18 +32,7 @@ Now for quickly accessing the UI, we can use port-forwarding the service and acc
 **kubectl port-forward -n kube-system service/my-headlamp 8080:80**
 
 3) Keep the port forwarding enabled and access the URL http://localhost:8080/ in you local browser. You should see below page from headlamp UI.
+<img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/74259e52-ae95-4279-9e70-97efeb492548" />
 
+Once you have this page, congratulations!! you have successfully Installed Headlamp.
 
-
-
-
-
-For Installing headlamp on your kubernetes cluster follow below process:
-1) Clone the GitHub repository:
-   $> git clone https://github.com/bagaderohit/headlamp.git
-
-Once the repository is cloned go into the directory headlamp/installation/headlamp-0.39.0
-
-2) Make sure that you have exported your cluster kubeconfig file and able to communicate successfully with clusterAPI.
-   Execute the helm install command to install the chart into desired namespace. For example below I am installing headlamp in kube-system namespace with all the default values for the helmchart. We can ofcourse configure the values as per our need using the custom-values file or passing the values directly using --set parameter.
-   $> helm install headlamp . -n kube-system 
