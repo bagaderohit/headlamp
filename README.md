@@ -1,9 +1,7 @@
 # Headlamp – Modern Kubernetes UI (5-Day Learning Series)
 
-<!-- Banner -->
-<p align="center">
-  <img src="assets/headlamp-banner.png" alt="Headlamp – Modern Kubernetes UI (5-Day Series)" width="100%"/>
-</p>
+<img width="1536" height="1024" alt="85ea801394" src="https://github.com/user-attachments/assets/7c0a9697-82d3-40c6-a5d1-b115ff4c6a85" />
+
 
 ## About
 Headlamp is a modern, user-friendly, and extensible Kubernetes UI maintained under Kubernetes SIG-UI. This repository hosts a 5-day hands-on learning series that covers installation, UI walkthrough, RBAC, deep-dive features, and plugins/GitOps extensions.
