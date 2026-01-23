@@ -2,7 +2,10 @@ Day 1
 --------
 Pre-requisites: 
 - A running kubernetes cluster which you can access from Server/client using kubeconfig file
+  You can run a Kubernetes cluster locally in your machine using Kind(Kubernetes in Docker) utility, follow the steps in the official documentation and spin up a cluster: https://kind.sigs.k8s.io/docs/user/quick-start/
 - helm package manager installed on the server/client from where we will be accessing the cluster.
+  Follow steps mentioned for helm utility installation as per your machine specifications: https://helm.sh/docs/intro/install/
+  
 For Installation, we can follow below simple steps which I have referenced from Official documentation of Headlamp.
 
 1) first add the custom repo to your local helm repositories
