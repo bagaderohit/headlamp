@@ -19,10 +19,13 @@ Each day has its own dedicated directory containing detailed guides, examples, c
 ├── day5-plugins-extensions/
 └── README.md
 ```
-🚀 5‑Day Headlamp Learning Series
-🔹 Day 1 — Installing Headlamp
+## 5‑Day Headlamp Learning Series
+
+# Day 1 — Installing Headlamp
 Learn how to install Headlamp using Helm, verify resources, and access the UI.
-➡️ day1-installation/
+```
+ day1-installation/
+```
 
 ## Quick Start
 - Start with `day1-installation/` to install Headlamp via Helm and access the UI.
