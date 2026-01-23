@@ -21,11 +21,42 @@ Each day has its own dedicated directory containing detailed guides, examples, c
 ```
 ## 5‑Day Headlamp Learning Series
 
-# Day 1 — Installing Headlamp
+### Day 1 — Installing Headlamp
 Learn how to install Headlamp using Helm, verify resources, and access the UI.
 ```
  day1-installation/
 ```
+### Day 2 - UI-Overview
+A complete walkthrough of the UI, menus, workload views, cluster insights, and comparisons with Kubernetes Dashboard.
+```
+day2-ui-overview/
+```
+### Day 3 - RBAC Configuration
+Learn how Headlamp handles authentication, permissions, kubeconfig usage, and how to secure access in production environments.
+```
+day3-rbac-configuration/
+```
+### Day 4 - Deep Dive into Features
+Explore advanced functionalities:
+- Workloads & resource management
+- Logs & metrics visualization
+- Events, nodes, and storage views
+- Real‑time updates
+```
+day4-deep-dive/
+```
+### Day 5 — Plugins, GitOps & Extensions
+Extend Headlamp with plugins and enhance workflows, including Flux GitOps plugin usage.
+```
+day5-plugins-extensions/
+```
+
+
+## Prerequisites for the Entire Series
+- A working Kubernetes cluster (Kind, Minikube, cloud provider, or on-prem)
+- kubectl installed and configured
+- helm installed
+- Basic understanding of Kubernetes resources
 
 ## Quick Start
 - Start with `day1-installation/` to install Headlamp via Helm and access the UI.
