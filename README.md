@@ -4,9 +4,12 @@
 
 
 ## About
-Headlamp is a modern, user-friendly, and extensible Kubernetes UI maintained under Kubernetes SIG-UI. This repository hosts a 5-day hands-on learning series that covers installation, UI walkthrough, RBAC, deep-dive features, and plugins/GitOps extensions.
+Headlamp is a modern, user‑friendly, and extensible Kubernetes UI developed under Kubernetes SIG‑UI.
+With the Kubernetes Dashboard reaching end‑of‑life, Headlamp has emerged as the recommended, community‑supported replacement — offering improved performance, plugin capabilities, better UX, and long‑term sustainability.
+This repository contains a 5‑Day hands‑on learning series, designed to help you understand, install, configure, and extend Headlamp in real Kubernetes environments.
 
 ## Repository Structure
+Each day has its own dedicated directory containing detailed guides, examples, commands, and screenshots.
 ```
 .
 ├── day1-installation/
@@ -16,6 +19,10 @@ Headlamp is a modern, user-friendly, and extensible Kubernetes UI maintained und
 ├── day5-plugins-extensions/
 └── README.md
 ```
+🚀 5‑Day Headlamp Learning Series
+🔹 Day 1 — Installing Headlamp
+Learn how to install Headlamp using Helm, verify resources, and access the UI.
+➡️ day1-installation/
 
 ## Quick Start
 - Start with `day1-installation/` to install Headlamp via Helm and access the UI.
