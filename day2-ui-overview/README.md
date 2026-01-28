@@ -161,7 +161,4 @@ By completing Day 2, you can:
 
 ---
 
-## 📁 Repo Pointers
-- **Day 2 PDF:** `./day2/Headlamp-Day2.pdf`
-
 
