@@ -14,8 +14,8 @@ Each day has its own dedicated directory containing detailed guides, examples, c
 .
 ├── day1-installation/
 ├── day2-ui-overview/
-├── day3-rbac-configuration/
-├── day4-deep-dive/
+├── day3-workload-deep-dive/
+├── day4-rbac-configuration/
 ├── day5-plugins-extensions/
 └── README.md
 ```
@@ -31,10 +31,10 @@ A complete walkthrough of the UI, menus, workload views, cluster insights, and c
 ```
 day2-ui-overview/
 ```
-### Day 3 - RBAC Configuration
-Learn how Headlamp handles authentication, permissions, kubeconfig usage, and how to secure access in production environments.
+### Day 3 - Workload Deep Dive
+Explore the core of workloads and how to manage resources using headlamp.
 ```
-day3-rbac-configuration/
+day3-workload-deep-dive/
 ```
 ### Day 4 - Deep Dive into Features
 Explore advanced functionalities:
