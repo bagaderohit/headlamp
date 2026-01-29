@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-busybox
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-busybox
+  template:
+    metadata:
+      labels:
+        app: demo-busybox
+    spec:
+      containers:
+      - name: busybox
+        image: busybox:1.36
+        command: ["sh", "-c"]
+        args:
+        - |
+          set -e
+          echo "Starting BusyBox Debug Demo";
+          echox "This will fail";   # <-- wrong command on purpose
+          echo "You will never see this";
