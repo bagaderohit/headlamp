@@ -36,14 +36,14 @@ Explore the core of workloads and how to manage resources using headlamp.
 ```
 day3-workload-deep-dive/
 ```
-### Day 4 - Deep Dive into Features
-Explore advanced functionalities:
-- Workloads & resource management
-- Logs & metrics visualization
-- Events, nodes, and storage views
-- Real‑time updates
+### Day 4 - Kubernetes RBAC
+
+Day 4 focuses on Kubernetes Role‑Based Access Control (RBAC) and how it governs what users can see and do inside Headlamp.
+
+This section demonstrates how dashboard visibility is driven by ServiceAccount permissions, and how restricting RBAC rules directly impacts UI access.
+
 ```
-day4-deep-dive/
+day4-kubernetes-rbac/
 ```
 ### Day 5 — Plugins, GitOps & Extensions
 Extend Headlamp with plugins and enhance workflows, including Flux GitOps plugin usage.
