@@ -1,0 +1,55 @@
+# Day 4 — Kubernetes RBAC (Headlamp restricted access)
+# Apply: kubectl apply -f day4-rbac-manifest.yaml
+# Cleanup: kubectl delete -f day4-rbac-manifest.yaml
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: headlamp-readonly
+  namespace: default
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: headlamp-readonly-role
+  namespace: default
+rules:
+  # Core resources ("" apiGroup)
+  - apiGroups: [""]
+    resources:
+      - pods
+      - services
+      - namespaces
+    verbs: ["get", "list", "watch"]
+
+  # Workload resources (apps apiGroup)
+  - apiGroups: ["apps"]
+    resources:
+      - deployments
+      - replicasets
+    verbs: ["get", "list", "watch"]
+
+  # (Optional) Allow reading events for easier troubleshooting in UI
+  - apiGroups: ["events.k8s.io", ""]
+    resources:
+      - events
+    verbs: ["get", "list", "watch"]
+
+  # NOTE: secrets are intentionally NOT included.
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: headlamp-readonly-binding
+  namespace: default
+subjects:
+  - kind: ServiceAccount
+    name: headlamp-readonly
+    namespace: default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: headlamp-readonly-role
