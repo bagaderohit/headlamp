@@ -63,7 +63,8 @@ Open Headlamp → **Workloads → Deployments → demo-busybox** to inspect:
 - YAML
 - Events
 - Logs
-<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/2cb7b426-5d4b-45e1-86d6-4bc5af266ad6" />
+<img width="1163" height="611" alt="image" src="https://github.com/user-attachments/assets/d4ae8ec7-74a1-4a18-9db5-c8024bacb219" />
+
 
 
 
