@@ -89,7 +89,8 @@ Headlamp reflects:
 - Pod rollout in real time
 - Termination of old Pods
 
-<img width="1919" height="1001" alt="image" src="https://github.com/user-attachments/assets/29198220-b7c0-4bf1-bc79-1353b0251d8a" />
+<img width="1160" height="614" alt="image" src="https://github.com/user-attachments/assets/94701e72-83b9-45a7-8482-8b707573ccae" />
+
 
 
 ---
