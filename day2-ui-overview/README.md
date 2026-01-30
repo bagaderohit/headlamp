@@ -65,7 +65,8 @@ Each resource view provides:
 - Metadata & labels
 - Linked/owner references
 
-<img width="1124" height="585" alt="image" src="https://github.com/user-attachments/assets/e26dbb81-0b27-495c-9cf6-3171db4b1700" />
+<img width="791" height="390" alt="image" src="https://github.com/user-attachments/assets/2e526ea2-8779-47b1-812a-49e88f233806" />
+
 
 
 ### 2.3 Nodes
