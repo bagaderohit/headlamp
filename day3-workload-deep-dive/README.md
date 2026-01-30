@@ -129,7 +129,8 @@ Events reveal:
 - Command failures
 - Container restarts
 
-<img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/4ccb81da-bd34-4925-b382-915f97eb8954" />
+<img width="1218" height="642" alt="image" src="https://github.com/user-attachments/assets/f6e1ace0-f892-42e1-bde9-6e0921839b7b" />
+
 
 
 ### 3.3 View Live Logs
