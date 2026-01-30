@@ -80,7 +80,8 @@ Navigate to **Workloads → Deployments → demo-busybox → Edit YAML** and upd
 spec:
   replicas: 2
 ```
-<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/c786b7a9-79d9-4161-866a-8e149235bb10" />
+<img width="966" height="510" alt="image" src="https://github.com/user-attachments/assets/74b2275f-4c2f-4a49-a5a4-6f88a5a51513" />
+
 
 ### 2.2 Apply changes
 Click **Apply**.
