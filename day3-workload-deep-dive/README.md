@@ -135,7 +135,7 @@ Events reveal:
 
 ### 3.3 View Live Logs
 Click **Logs**.
-<img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/e0e43ffb-c65a-4c94-b998-209640498f72" />
+<img width="1279" height="671" alt="image" src="https://github.com/user-attachments/assets/535187dc-b90a-44ac-8ccb-626f875cc2c7" />
 
 Expected output:
 ```
