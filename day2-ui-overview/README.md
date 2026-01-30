@@ -87,7 +87,8 @@ Traffic and connectivity constructs:
 
 Visual navigation helps trace service routing and policy effects.
 
-<img width="791" height="392" alt="image" src="https://github.com/user-attachments/assets/508a2ba0-32c0-4e82-8164-41185860adc3" />
+<img width="1092" height="572" alt="image" src="https://github.com/user-attachments/assets/82065a68-bac0-48ae-a280-ee4fbfc0b1b8" />
+
 
 
 
