@@ -63,7 +63,8 @@ helm ls -n kube-system
 kubectl get all --namespace kube-system -l app.kubernetes.io/instance=my-headlamp
 ```
 
-<img width="818" height="220" alt="image" src="https://github.com/user-attachments/assets/959fc228-4a95-44ee-af96-45a865e5426b" />
+<img width="1309" height="351" alt="image" src="https://github.com/user-attachments/assets/836d8995-080a-4b60-b818-9df36c99f8c8" />
+
 
 You should be able to see all the resources created by the headlamp.
 
