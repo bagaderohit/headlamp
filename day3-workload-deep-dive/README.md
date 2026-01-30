@@ -118,7 +118,8 @@ kubectl apply -f wrong-busybox-deploy.yaml
 ### 3.1 Navigate to the Pod
 Go to **Workloads → Deployments → Pods → demo-busybox-xxxxx**.
 
-<img width="1919" height="999" alt="image" src="https://github.com/user-attachments/assets/64d4e020-21c9-404c-977c-33947d9e7b11" />
+<img width="965" height="510" alt="image" src="https://github.com/user-attachments/assets/bbe19881-eef1-48fe-8c21-60ad267bd580" />
+
 
 
 ### 3.2 Check Events
