@@ -76,7 +76,7 @@ Node insights for performance and scheduling:
 - Pod placement per node
 - Labels & taints
 
-<img width="1125" height="589" alt="image" src="https://github.com/user-attachments/assets/6c6467e4-ef3c-43fe-95ae-3dc615e370f1" />
+<img width="791" height="392" alt="image" src="https://github.com/user-attachments/assets/ea10b12b-73d3-4285-84bb-352e8cdfd5ca" />
 
 
 ### 2.4 Networking
