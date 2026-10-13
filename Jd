@@ -1,3 +1,46 @@
+We are seeking a highly motivated Associate Platform Reliability Engineer (SRE) to join our global Platform Reliability Engineering team. This is a hands-on engineering role focused on ensuring the stability, reliability, scalability, and operational excellence of critical front-to-back business platforms supporting post-trade processing and operations.
+
+The ideal candidate will have a strong software engineering foundation, production support experience, and a passion for automation, observability, and reliability engineering. You will work closely with development, infrastructure, and business teams to improve system resilience, enhance operational visibility, reduce manual intervention, and deliver highly available services.
+
+ 
+
+Key Responsibilities
+
+Partner with a high-performing global reliability engineering team to maintain and improve the stability of business-critical applications supporting Operations and Post-Trade processing.
+Monitor platform health, proactively identify risks, and drive improvements in system reliability, performance, and availability.
+Perform incident triage, troubleshooting, communication, and post-incident reviews to minimize business impact and prevent recurrence.
+Collaborate with engineering, infrastructure, and business stakeholders to design and implement scalable and resilient solutions.
+Develop automation to reduce operational toil, eliminate manual support activities, and improve service efficiency.
+Build and enhance deployment, monitoring, alerting, and observability capabilities across the platform stack.
+Develop and maintain dashboards, alerts, and service health monitoring using Grafana, Datadog, Prometheus, and OpenTelemetry.
+Analyze logs, metrics, and distributed traces to proactively identify system bottlenecks and reliability issues.
+Support enterprise messaging and event-driven architectures, including Kafka-based platforms and integrations.
+Troubleshoot complex issues across applications, middleware, databases, messaging platforms, infrastructure, and cloud environments.
+Implement best practices for monitoring, observability, capacity planning, availability management, and operational excellence.
+Participate in production support, problem management, release management, and change management activities.
+Collaborate with regional teams across APAC, EMEA, and the Americas on strategic technology initiatives.
+Drive continuous improvement initiatives focused on reliability, automation, monitoring, and operational efficiency.
+ 
+
+Required Qualifications
+
+Bachelor's degree in Computer Science, Engineering, Information Technology, or a related discipline.
+3+ years of experience in Site Reliability Engineering (SRE), Platform Reliability Engineering (PRE), DevOps, Production Support, or Application Support.
+Strong programming and scripting experience in one or more languages such as Python, Go, C#, Java, or C++.
+Solid understanding of software engineering principles, data structures, algorithms, and system design.
+Experience supporting and troubleshooting distributed applications in production environments.
+Strong working knowledge of Linux/Unix and Windows Server environments.
+Experience with relational and NoSQL databases, including performance analysis and troubleshooting.
+Hands-on experience with observability and monitoring platforms including Grafana, Datadog, Prometheus, OpenTelemetry, Loki, and Jaeger.
+Strong understanding of observability concepts, including Metrics, Logging, Tracing, Alerting, SLIs, SLOs, and Service Health Monitoring.
+Experience creating operational dashboards, alerts, runbooks, and monitoring solutions to improve platform visibility.
+Good understanding of event-driven architectures and enterprise messaging platforms such as Kafka.
+Ability to troubleshoot message flows, APIs, middleware components, and distributed systems.
+Understanding of incident management, problem management, root cause analysis, and operational support processes.
+Familiarity with source control, CI/CD pipelines, Infrastructure as Code (IaC), and DevOps practices.
+Excellent analytical and problem-solving skills with the ability to diagnose issues across the technology stack.
+Strong verbal and written communication skills with the ability to engage both technical and business stakeholders.
+Self-motivated, detail-oriented, and capable of working independently in a fast-paced environment.
 Prometheus
 Datadog
 OpenTelemetry
